@@ -1,0 +1,5 @@
+mu,implied_median_call_min,implied_share_in_p3,implied_unused_share,first_optimal_call_at_d-1_min,first_optimal_call_at_d0_min
+0.005,47.5,1.0,0.1366,47.5,42.5
+0.01,50.5,1.0,0.1576,48.5,48.5
+0.02,50.5,1.0,0.179,50.0,50.5
+0.03,56.5,1.0,0.424,56.0,48.0

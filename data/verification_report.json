@@ -1,0 +1,58 @@
+{
+  "api_endpoint": "https://api-web.nhle.com/v1",
+  "data_provenance": "Official NHL Web API (api-web.nhle.com/v1) \u2014 same backend used by nhl.com",
+  "basic": {
+    "n_total_plays": 1242481,
+    "n_total_games": 3936,
+    "n_total_timeouts": 468,
+    "timeouts_by_period": {
+      "1": 21,
+      "2": 51,
+      "3": 344,
+      "4": 52
+    },
+    "share_in_third_period": 0.7350427350427351,
+    "median_timeout_call_minute": 58.5,
+    "share_caller_trailing": 0.6816239316239316
+  },
+  "game_counts": {
+    "20222023": {
+      "expected": 1312,
+      "actual": 1312,
+      "diff_pct": 0.0,
+      "ok": true
+    },
+    "20232024": {
+      "expected": 1312,
+      "actual": 1312,
+      "diff_pct": 0.0,
+      "ok": true
+    },
+    "20242025": {
+      "expected": 1312,
+      "actual": 1312,
+      "diff_pct": 0.0,
+      "ok": true
+    }
+  },
+  "timeout_max_one_per_team_per_game": {
+    "n_timeouts_total": 468,
+    "n_team_games_with_call": 468,
+    "max_calls_in_one_team_game": 1,
+    "violations_count": 0,
+    "ok": true
+  },
+  "score_consistency_sample": {
+    "n_sampled": 30,
+    "n_successes": 30,
+    "failures": [],
+    "ok": true
+  },
+  "timeout_roundtrip_sample": {
+    "n_sampled": 20,
+    "n_successes": 20,
+    "failures": [],
+    "ok": true
+  },
+  "overall_pass": true
+}

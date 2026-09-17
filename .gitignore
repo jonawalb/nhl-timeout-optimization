@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+.venv/
+*.egg-info/
+uv.lock

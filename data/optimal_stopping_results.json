@@ -1,0 +1,80 @@
+{
+  "empirical": {
+    "median_call_minute": 58.5,
+    "share_in_p3": 0.8461538461538461,
+    "unused_share": 0.9405487804878049,
+    "n": 468
+  },
+  "model": {
+    "0.005": {
+      "threshold_curve_sample": {
+        "0": null,
+        "600": null,
+        "1200": null,
+        "1800": null,
+        "2400": null,
+        "3000": null,
+        "3300": null
+      },
+      "implied_median_call_minute": 47.5,
+      "implied_share_in_third_period": 1.0,
+      "implied_unused_share": 0.1366,
+      "first_time_calling_optimal_at_d_minus1_seconds": 2850,
+      "first_time_calling_optimal_at_d_zero_seconds": 2550
+    },
+    "0.01": {
+      "threshold_curve_sample": {
+        "0": null,
+        "600": null,
+        "1200": null,
+        "1800": null,
+        "2400": null,
+        "3000": null,
+        "3300": null
+      },
+      "implied_median_call_minute": 50.5,
+      "implied_share_in_third_period": 1.0,
+      "implied_unused_share": 0.1576,
+      "first_time_calling_optimal_at_d_minus1_seconds": 2910,
+      "first_time_calling_optimal_at_d_zero_seconds": 2910
+    },
+    "0.02": {
+      "threshold_curve_sample": {
+        "0": null,
+        "600": null,
+        "1200": null,
+        "1800": null,
+        "2400": null,
+        "3000": [
+          -1,
+          -1
+        ],
+        "3300": [
+          -3,
+          2
+        ]
+      },
+      "implied_median_call_minute": 50.5,
+      "implied_share_in_third_period": 1.0,
+      "implied_unused_share": 0.179,
+      "first_time_calling_optimal_at_d_minus1_seconds": 3000,
+      "first_time_calling_optimal_at_d_zero_seconds": 3030
+    },
+    "0.03": {
+      "threshold_curve_sample": {
+        "0": null,
+        "600": null,
+        "1200": null,
+        "1800": null,
+        "2400": null,
+        "3000": null,
+        "3300": null
+      },
+      "implied_median_call_minute": 56.5,
+      "implied_share_in_third_period": 1.0,
+      "implied_unused_share": 0.424,
+      "first_time_calling_optimal_at_d_minus1_seconds": 3360,
+      "first_time_calling_optimal_at_d_zero_seconds": 2880
+    }
+  }
+}

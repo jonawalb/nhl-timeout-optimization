@@ -1,0 +1,8 @@
+httpx>=0.27
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.9
+statsmodels>=0.14
+scipy>=1.13
+tqdm>=4.66
+pyarrow>=16

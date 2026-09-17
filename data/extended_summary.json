@@ -1,0 +1,59 @@
+{
+  "eu_loss": [
+    {
+      "mu": 0.005,
+      "V_optimal_at_start_tied": 0.5007973812903703,
+      "V_naive_at_start_tied": 0.49999999999999567,
+      "optimal_minus_naive_WP_points": 0.0007973812903746547,
+      "empirical_minus_naive_WP_points": 8.673020308351086e-05,
+      "EU_loss_WP_points_per_team_game": 0.0007106510872911438,
+      "fraction_of_optimal_captured": 0.1087687962213913,
+      "mean_empirical_call_value": 0.0014576504719917792
+    },
+    {
+      "mu": 0.01,
+      "V_optimal_at_start_tied": 0.5015947625807449,
+      "V_naive_at_start_tied": 0.49999999999999567,
+      "optimal_minus_naive_WP_points": 0.0015947625807491983,
+      "empirical_minus_naive_WP_points": 0.000173460406167022,
+      "EU_loss_WP_points_per_team_game": 0.0014213021745821763,
+      "fraction_of_optimal_captured": 0.10876879622139905,
+      "mean_empirical_call_value": 0.002915300943983563
+    },
+    {
+      "mu": 0.02,
+      "V_optimal_at_start_tied": 0.5031895251614946,
+      "V_naive_at_start_tied": 0.49999999999999567,
+      "optimal_minus_naive_WP_points": 0.0031895251614989517,
+      "empirical_minus_naive_WP_points": 0.00034692081233404385,
+      "EU_loss_WP_points_per_team_game": 0.002842604349164908,
+      "fraction_of_optimal_captured": 0.10876879622138008,
+      "mean_empirical_call_value": 0.005830601887967124
+    },
+    {
+      "mu": 0.03,
+      "V_optimal_at_start_tied": 0.5047842877422447,
+      "V_naive_at_start_tied": 0.49999999999999567,
+      "optimal_minus_naive_WP_points": 0.004784287742249038,
+      "empirical_minus_naive_WP_points": 0.0005203812185010646,
+      "EU_loss_WP_points_per_team_game": 0.004263906523747973,
+      "fraction_of_optimal_captured": 0.10876879622136594,
+      "mean_empirical_call_value": 0.008745902831950666
+    }
+  ],
+  "state_dependent": {
+    "implied_median_min": 55.0,
+    "implied_unused_share": 0.4809
+  },
+  "per_team_summary": {
+    "highest_usage_team": "UTA",
+    "highest_usage_rate": 0.14634146341463414,
+    "lowest_usage_team": "CAR",
+    "lowest_usage_rate": 0.0,
+    "median_usage_rate": 0.052845528455284556,
+    "iqr_usage_rate": [
+      0.036585365853658534,
+      0.08130081300813008
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "n_timeouts": 468,
+  "n_games_with_pbp": 468,
+  "by_period": {
+    "1": 21,
+    "2": 51,
+    "3": 344,
+    "4": 52
+  },
+  "by_period_share": {
+    "1": 0.04487179487179487,
+    "2": 0.10897435897435898,
+    "3": 0.7350427350427351,
+    "4": 0.1111111111111111
+  },
+  "median_elapsed_s": 3510.0,
+  "median_elapsed_mmss": "58:30",
+  "pct_in_third_period": 0.7350427350427351,
+  "pct_in_last_5_min_of_3rd": 0.6260683760683761,
+  "pct_trailing": 0.6816239316239316,
+  "pct_tied": 0.20512820512820512,
+  "pct_leading": 0.11324786324786325,
+  "coverage": {
+    "team_games": 7872,
+    "team_games_with_timeout": 468,
+    "share_with_timeout": 0.05945121951219512
+  },
+  "mean_delta_wp_5min": 0.025231335667750456,
+  "median_delta_wp_5min": -0.007890529939898585,
+  "leverage_peak_state": {
+    "score_diff": 0.0,
+    "time_remaining_s": 0.0,
+    "minute_of_game": 60.0,
+    "wp": 0.5220248987850972,
+    "leverage": 0.6897762230103958
+  }
+}
